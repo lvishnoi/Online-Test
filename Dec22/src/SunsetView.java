@@ -8,6 +8,9 @@ public class SunsetView {
 	}
 
 	public static int countBuilding(int[] arr) {
+		// Traversing the array from the end.
+		// Created a variable to check/compare if the buildings on the east side are lower. If yes, ignore that. 
+		
 		int sum = 0;
 		int max = 0;
 		int len = arr.length;
